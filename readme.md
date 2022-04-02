@@ -1,6 +1,7 @@
-Summary - This is a nlp based api in which user can perform basic text analytics operations. 
+## Summary:- 
+This is a nlp based api in which user can perform basic text analytics operations. 
 
-<<<<----------Input-------->>>>>>
+### Input:-
 Json string which contains only one element. 
 Key - 'text', Value - STRING
 
@@ -11,7 +12,7 @@ Sample input:-
     }
 
 
-<<<<----------Output-------->>>>>>
+### Output:-
 Response from api based on the selected api endpoint.
 
 Sample output:- 
@@ -28,7 +29,7 @@ Sample output:-
 }
 
 
-<<<<----------API Endpoints-------->>>>>>
+### API Endpoints:-
 
 1. sentiment_analysis:-
 Sentiment analysis - returns polarity and subjectivity in numbers and in text format.
