@@ -5,7 +5,7 @@ This is a nlp based api in which user can perform basic text analytics operation
 Json string which contains only one element. 
 Key - 'text', Value - STRING
 
-#### Sample input:- 
+<b>Sample input:- </b>
 
 {
     "text": "Hope you’re doing awesome!"
@@ -15,7 +15,7 @@ Key - 'text', Value - STRING
 ### Output:-
 Response from api based on the selected api endpoint.
 
-#### Sample output:- 
+<b>Sample output:- </b>
 
 {
     "Number Response": {
@@ -31,17 +31,17 @@ Response from api based on the selected api endpoint.
 
 ### API Endpoints:-
 
-1. sentiment_analysis:-
+<b>1. sentiment_analysis:-</b>
 Sentiment analysis - returns polarity and subjectivity in numbers and in text format.
 
-2. correct_text:-
+<b>2. correct_text:-</b>
 Correcting spelling of input text
 
-3. detect_language:-
+<b>3. detect_language:-</b>
 Language detection of input text
 
-4. translate_text:-
+<b>4. translate_text:-</b>
 Translate non-english language into english
 
-5. words_stats:-
+<b>5. words_stats:-</b>
 Statistics of words - returns number of words, top 5 high frequently used words
