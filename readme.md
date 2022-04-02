@@ -5,7 +5,7 @@ This is a nlp based api in which user can perform basic text analytics operation
 Json string which contains only one element. 
 Key - 'text', Value - STRING
 
-Sample input:- 
+#### Sample input:- 
 
 {
     "text": "Hope you’re doing awesome!"
@@ -15,7 +15,7 @@ Sample input:-
 ### Output:-
 Response from api based on the selected api endpoint.
 
-Sample output:- 
+#### Sample output:- 
 
 {
     "Number Response": {
